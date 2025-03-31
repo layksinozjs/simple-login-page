@@ -48,6 +48,7 @@ body{
   border: 1px solid lightgrey;
   font-size: 18px;
   transition: all 0.3s ease;
+  margin-left: 5px;
 }
 
 form .input  input:focus{
