@@ -6,24 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
 </head>
 
 <body>
 
-<div class="container">
+    <div class="container">
+        <div class="title">
+            <span id="logintitle">
+                <h2>Login</h2>
+            </span>
 
-    <form action="/login" method="POST">
-        <h2>Login</h2>
-        <label for="username">Username</label>
-        <input type="text" id="username">
+            <div class="input">
+                <i class="fa-solid fa-user-secret"></i>
+                <input required type="text" placeholder="Enter your username here.">
+            </div>
 
-        <label for="password">Username</label>
-        <input type="password" id="password">
-        <button type="submit">Submit</button>
+            <div class="input">
+                <i class="fa-solid fa-lock"></i>
+                <input required type="password" placeholder="Password here.">
+            </div>
 
 
-    </form>
-</div>
+      <div class="signup">
+        <a href="#">Sign-up Here</a>
+
+        
+      </div>
+
+      <div class="submit">
+        <button type="submit" value="Login">Submit</button>
+      </div>
+
+
+    </div>
 
 </body>
 
