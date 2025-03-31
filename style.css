@@ -62,5 +62,5 @@ form .input  input:focus{
   background: #16a085;
   border: 1px solid #16a085;
   cursor: pointer;
-
+width: 100%;
 }
