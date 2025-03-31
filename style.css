@@ -1,69 +1,123 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
+
+
 body{
     font-family: Poppins , sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
+   overflow: hidden;
     height: 100vh;
     padding: 15px;
     background-color: #ff8533;
-    overflow: hidden;
+    
 
 
 }
 
 .container{
     max-width: 500px;
+    height: 320px;
     width: 100%;
     background: #fff;
     border-radius: 5px;
     box-shadow: 0px 4px 10px 1px rgba(0, 0, 0, 0.1);
     position: relative;
+    border: 1px solid #ccc;
   }
 
 .container .title{
-    height: 100px;
-    display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.container form{
-    padding: 25px 35px;
-}
-
-.container form .input{
-    height: 60px;
-  margin-top: 15px;
-  position: relative;
-}
-
-.container form .input input{
-    height: 100%;
+  
   width: 100%;
-  outline: none;
-  padding-left: 30px;
-  border-radius: 5px;
-  border: 1px solid lightgrey;
-  font-size: 18px;
-  transition: all 0.3s ease;
-  margin-left: 5px;
-}
-
-form .input  input:focus{
-    
-}
-
-.container form .submit button{
-  margin-top: 35px;
-  color: #fff;
   font-size: 20px;
-  font-weight: 500;
-  padding-left: 0px;
-  background: #16a085;
-  border: 1px solid #16a085;
-  cursor: pointer;
-width: 100%;
-padding: 8px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 15px;
+  
+ 
+  
+}
+.container .title span{
+  padding: 3px;
+  
+  
+}
+
+form{
+  margin: 15px;
+}
+
+form .input{
+  display: flex;
+  align-items: center;
+}
+
+
+
+
+form .input input{
+   width: 100%;
+   text-decoration: none; 
+   margin-top: 5px;
+   border-radius: 5px;
+   color: black;
+   padding: 17px 0px 17px 35px;
+   border: 2px solid #ccc;
+   outline: none;
+   transition: all 0.3s ease;
+   
+   
+   
+  
+  
+}
+
+form .input input:focus {
+   border-color: #ff8533;
+   box-shadow: 0px 0px 8px rgba(255, 133, 51, 0.5);
+}
+
+form .input i{
+  position: absolute;
+  font-size: 16px;
+  color: black;
+  justify-content: center;
+  left: 26px;
+  color: black;
+  align-items: center;
+  padding: 0px;
+  
+}
+
+form .signup{
+  margin: 20px 0 10px 0;
+  
+}
+form a{
+  text-decoration: none;
+  color: #ff8533;
+  
+}
+
+
+
+
+form .submit button{
+  width: 100%;
+  padding: 10px;
+  text-decoration: none;
+  background-color: #ff8533;
+  border: 1px solid;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 15px;
+  margin-top: 13px;
+}
+
+form .submit button:focus{
+  background-color: orangered;
+  transition: background 0.2s ease;
 }
