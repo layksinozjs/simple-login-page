@@ -52,3 +52,15 @@ body{
 form .input  input:focus{
     
 }
+
+.container form .submit{
+  margin-top: 20px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  padding-left: 0px;
+  background: #16a085;
+  border: 1px solid #16a085;
+  cursor: pointer;
+
+}
